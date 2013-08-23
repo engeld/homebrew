@@ -1,22 +1,14 @@
-Homebrew
+engeld's Homebrew-Fork
 ========
-Features, usage and installation instructions are [summarized on the homepage][home].
+For updating and adding formulas.
 
-What Packages Are Available?
-----------------------------
-1. You can [browse the Formula directory on GitHub][formula].
-2. Or type `brew search` for a list.
-3. Or run `brew server` to browse packages off of a local web server.
-4. Or visit [braumeister.org][braumeister] to browse packages online.
-
-More Documentation
-------------------
-`brew help` or `man brew` or check our [wiki][].
-
-Who Are You?
+Contributing
 ------------
-I'm [Max Howell][mxcl] and I'm a splendid chap.
-
+1. Fork [homebrew]
+2. brew create create http://example.com/foo-0.1.tar.g
+3. git checkout -b foo
+4. git commit Library/Formula/foo.rb && git push
+5. Pull Request
 
 [home]:http://brew.sh
 [wiki]:http://wiki.github.com/mxcl/homebrew
